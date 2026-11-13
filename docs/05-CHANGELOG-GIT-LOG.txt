@@ -1,0 +1,63 @@
+84432e92  2026-11-04  feat(website): build multilingual Wazen website (AR, EN, FR) with support form
+ef32c315  2026-11-04  feat(branding): update app icons and brand mark to official emerald Wazen logo
+74683ca8  2026-11-04  Revert "feat(branding): update app icons and brand mark to official emerald Wazen logo"
+761d1c59  2026-11-04  feat(website): use authentic Wazen app logo from iOS and Android across website
+9b35e128  2026-11-04  fix(website): enforce strict 40x40 logo sizing with inline styles and cache busting
+1109e053  2026-11-04  feat(seo): inject global GEO SEO, regional hreflang matrix, and Schema.org JSON-LD across website
+017558f2  2026-11-04  feat(seo): add IndexNow instant indexing key and Googlebot RSS feed
+b6e35f0d  2026-11-04  feat(seo): configure Apple App Site Association, Android AssetLinks, PWA Manifest, and README authority backlink
+4ea51465  2026-11-04  feat(seo): maximize semantic keywords, entity taxonomy, and Schema knowsAbout for MENA, US, and Asia
+71fc733f  2026-11-05  feat(mobile): improve ingredient drawer, camera HUD voice button, and meal goal budget UX (v60)
+edc1ba62  2026-11-05  chore: purge legacy template screenshots, replace with real Arabic Wazen screens
+32ceaacf  2026-11-05  feat: generate 100% dark mode Arabic UI header asset
+c9e55fda  2026-11-05  feat: add official logo, Arabic branding, and value proposition to App Store header
+53002d79  2026-11-05  feat: generate native Apple Watch screenshots for App Store Connect submission
+d07253a3  2026-11-05  feat: render native SwiftUI Apple Watch screens using ImageRenderer
+da18411a  2026-11-05  feat: render identical Wazen dark design for Apple Watch screenshots
+23e685d1  2026-11-05  feat(watch): update WatchNutritionView to match Wazen dark design language
+9dd75758  2026-11-05  feat(play): generate official Arabic 1080x2400 screenshots and 1024x500 feature graphic
+9792765c  2026-11-06  fix(ai): configure gpt-5.6-luna for vision food analytics and sanitize upstream proxy payload
+52de16da  2026-11-06  fix(prompt,ui): prevent oil hallucination on desserts and fix total weight card text overlap
+4d52d425  2026-11-06  feat(ai): fast 1s coach text model, 1-month pro trial for new accounts, all accounts pro, 20 daily scans limit, and food AI training dataset flywheel
+759f1fab  2026-11-06  docs(aso): add complete optimized ASO metadata and scripts for App Store and Google Play
+b674f4e1  2026-11-06  feat: implement viral story cards, fridge recipe AI, barcode fallback and self-hosted AI script
+c0fa8782  2026-11-07  fix(coach-voice): resolve audio session category lock and auto-listen resume on iOS and Android
+5657764a  2026-11-07  fix(scan): sync serving quantity stepper on ingredient deletion, auto-refine dish title, add edit affordance, fix double parens and RTL slider
+b4883363  2026-11-07  feat: add streak counter to home widgets and confetti celebration on Android and iOS
+632286db  2026-11-07  fix(auth): skip onboarding and remove redundant sign-in button when user is logged in
+0a275b76  2026-11-07  feat(coach): dynamic country accent and dialect response (Darija, Khaleeji, Egyptian)
+6c868e1f  2026-11-07  fix(ios): prevent stack overflow crash on tab switch by isolating country picker row
+90ca1453  2026-11-07  fix(ios): add WazenRoundBackButton to settings categories and clean up navigation
+1cf227c3  2026-11-07  feat(ux): add beta testing feedback hub and polish Arabic prompts/strings
+b1d0c8e1  2026-11-07  feat(settings): hide support/donation row from Android and iOS settings
+56327f35  2026-11-07  fix(ios): resolve settings tabs stack overflow crash and eliminate recursive profile view navigation
+b038410a  2026-11-07  chore(release): bump iOS build number to 63
+fd6137d0  2026-11-07  chore(release): bump iOS marketing version to 2.0.1
+672ff03d  2026-11-07  docs(aso): optimize App Store keywords to 97 characters
+827e02ea  2026-11-10  feat(android): simplify home UI for Arab users with streamlined top bar and direct logging CTAs
+a94ba74b  2026-11-10  feat(i18n): standardize all UI and AI coach prompts to 100% Modern Standard Arabic across Android and iOS
+2be6a823  2026-11-10  feat(store): link official App Store and Google Play URLs across website, web, apps, and admin dashboard
+de83dea2  2026-11-10  fix(website): standardize to pure Arabic Fusha, remove dialect, and update store links
+4ca01073  2026-11-10  feat(android): streamline home and meal scan UX, polish settings, and complete 100% Fusha localization
+a8237dba  2026-11-10  feat(seo,push): add GEO llms.txt, regional Arab pages, full hreflang sitemap, and fix broadcast feed
+a39a50e9  2026-11-10  feat(website): use official Apple App Store and 4-color Google Play badges across all pages
+18660c97  2026-11-10  feat(android): unify meal weight and ingredient popups to modern bottom-sheet design
+a6ed0df2  2026-11-11  feat(mobile): unify sheet UX on iOS and standardize all UI & AI Arabic copy to clean Fusha
+b2f38d21  2026-11-11  feat(website): polish technical SEO, GEO citations, mobile nav, and clean Fusha copy
+2ab88523  2026-11-11  chore(android): prepare v7.9 (build 61) Play Store release, fix package IDs and clean Fusha copy
+06a2d8f1  2026-11-11  chore(playstore): update v7.9 Android screenshots and release name metadata
+8e283a35  2026-11-11  fix(barcode): prevent false water zeroing, display package ingredients, and upgrade camera GTIN focus
+007f522e  2026-11-11  feat(meal-editor): add poultry/duck forensics, inline ingredient rename, and contextual units (v7.9)
+68e218c6  2026-11-11  refactor(meal-editor): remove quick preset sub-chips from total amount card (v7.9+64)
+13fac524  2026-11-11  fix(ui): show full ingredient macros without clipping and remove duplicate Home CTAs (v7.9+65)
+1d59147f  2026-11-11  fix(android): restore full iOS UI parity across Home, FoodResult, and Settings (v7.9+66)
+d70e40fc  2026-11-12  feat(result-ui): implement numbered pin quick-edit, visual review banner, and unified macro card on iOS & Android (v7.9+67)
+7560a68e  2026-11-12  feat(result-ui): implement full Main & Drink quick-fix result flows on iOS & Android (v7.9+68)
+d9c31e46  2026-11-12  feat(wazen): add budget, safe fasting/companion, community, supplements, glucose tracker, quick home, and Arabic workout instructions + in-app video
+b5b2edd8  2026-11-13  feat(wazen): redesign weight-tab blood sugar card, fix home chips overflow, update coach prompts, and bump Android v70
+2b942dcc  2026-11-13  chore(release): prepare iOS 2.0.2 (64) and Play Store 7.9 (70) releases
+e07a1b05  2026-11-13  chore(playstore): use real Wazen dark screenshots across all 5 languages
+b84dd0d9  2026-11-13  chore(store): switch Play Store screenshots to white light-mode studio
+7c2a3706  2026-11-13  chore(store): add 7-inch and 10-inch Play Store tablet screenshots
+c95a526b  2026-11-13  chore(store): complete 10-inch Play Store tablet PNG set
+56bc8a66  2026-11-13  docs(store): update PLAYSTORE.md with white phone & tablet assets across 5 locales
